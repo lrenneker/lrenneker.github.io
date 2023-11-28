@@ -1,14 +1,14 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', serif; /* Use Times New Roman font */
     margin: 0;
     padding: 0;
-    background-color: #f5f5f8; /* Light purple background */
+    background-color: #E9D3FF; /* Light purple background */
     line-height: 1.6;
 }
 
 header {
-    background-color: #9b59b6; /* Dark purple header */
-    color: #ecf0f1;
+    background-color: #9B6FCC; /* Dark purple header */
+    color: #E9D3FF; /* Light purple text */
     text-align: center;
     padding: 1em;
     position: fixed;
@@ -19,14 +19,14 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #8e44ad; /* Darker purple navigation */
+    background-color: #8E63B5; /* Darker purple navigation */
     position: fixed;
     width: 100%;
     z-index: 1000;
 }
 
 nav a {
-    color: #ecf0f1;
+    color: #E9D3FF; /* Light purple text */
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 10px;
@@ -35,29 +35,4 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #663399; /* A shade of purple for hover effect */
-}
-
-section {
-    padding: 50px 20px;
-    margin-top: 60px; /* Adjusted for the fixed header */
-    background-color: #fff; /* White content background */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
-}
-
-h2 {
-    color: #663399; /* Purple heading */
-}
-
-p {
-    color: #333;
-}
-
-footer {
-    background-color: #8e44ad; /* Darker purple footer */
-    color: #ecf0f1;
-    text-align: center;
-    padding: 1em;
-}
-
+    background-color: #70469E; /* A shade of purple for
