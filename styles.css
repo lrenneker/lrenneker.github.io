@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #f5f5f8; /* Light purple background */
     line-height: 1.6;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #9b59b6; /* Dark purple header */
     color: #ecf0f1;
     text-align: center;
     padding: 1em;
@@ -19,7 +19,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #34495e;
+    background-color: #8e44ad; /* Darker purple navigation */
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -35,17 +35,19 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2c3e50;
+    background-color: #663399; /* A shade of purple for hover effect */
 }
 
 section {
     padding: 50px 20px;
     margin-top: 60px; /* Adjusted for the fixed header */
-    background-color: #ecf0f1;
+    background-color: #fff; /* White content background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
 }
 
 h2 {
-    color: #2c3e50;
+    color: #663399; /* Purple heading */
 }
 
 p {
@@ -53,8 +55,9 @@ p {
 }
 
 footer {
-    background-color: #34495e;
+    background-color: #8e44ad; /* Darker purple footer */
     color: #ecf0f1;
     text-align: center;
     padding: 1em;
 }
+
